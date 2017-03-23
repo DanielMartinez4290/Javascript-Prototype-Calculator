@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?2goin2');
+  src:  url('fonts/icomoon.eot?2goin2#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?2goin2') format('truetype'),
+    url('fonts/icomoon.woff?2goin2') format('woff'),
+    url('fonts/icomoon.svg?2goin2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-plus:before {
+  content: "\ea0a";
+}
+.icon-minus:before {
+  content: "\ea0b";
+}
+.icon-cross:before {
+  content: "\ea0f";
+}
+.icon-ctrl:before {
+  content: "\ea50";
+}
+
+
+
+
+
+.table { display: table; }
+.table-row { display: table-row; }
+.table-cell { display: table-cell; }
+
+.full { width: 100%; }
+.third { width: 33%; }
+
+body { background: #550000; font-size: 22px; }
+
+button {
+    color: #000;
+    background: #ccc;
+    border: 1px solid #000;
+    border-radius: 50px;
+    font-size: 2em;
+    padding: .5em .5em .75em;
+    line-height: 1em;
+    width: 100%;
+    margin: .1em auto;
+}
+
+#main {
+    width: 36%;
+    background: #666;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    padding: 2%;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    box-shadow: 0px 0px 1000px #333,
+        100px 100px 1000px #333,
+        -100px -100px 1000px #333,
+        -100px 100px 1000px #333,
+        100px -100px 1000px #333;
+}
+
+#opWindow {
+    background: green;
+    color: black;
+    text-align: right;
+    font-size: 2em;
+    padding: .1em 2%;
+    width: 96%;
+}
+
+button.operators{
+    width:20%;
+}
+button.numbers{
+    width:33%;
+}
+button.botOperators{
+    width:33%;
+}
