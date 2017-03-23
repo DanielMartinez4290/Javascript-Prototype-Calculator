@@ -1,1 +1,1 @@
-Javascript Prototype Calculator that adds calculations to the top and functions similar to a Single Page Application. 
+Javascript Prototype Calculator that performs addition, subtraction, multiplication, division, and exponentials. Each calculation is saved in localStorage and added to the top of the calculator similar to a Single Page Application. The mathematic symbols used are from icomoon.
